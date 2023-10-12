@@ -13,9 +13,6 @@ public class MatrixAccessor : IImageAccessor
         Height = image.GetLength(0);
     }
     
-    
     public Pixel GetPixel(int x, int y)
-    {
-        throw new NotImplementedException();
-    }
+        => Pixel.FromInt(_matrix[x, y]);
 }

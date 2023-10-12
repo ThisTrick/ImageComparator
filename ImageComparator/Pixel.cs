@@ -1,6 +1,6 @@
 namespace ImageComparator;
 
-public record Pixel(byte R, byte G, byte B, byte A)
+public record struct Pixel(byte R, byte G, byte B, byte A)
 {
     public static Pixel FromInt(int color)
     {
