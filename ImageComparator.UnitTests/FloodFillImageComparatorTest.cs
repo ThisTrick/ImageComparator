@@ -1,12 +1,12 @@
 
 namespace ImageComparator.UnitTests;
 
-public class ImageComparatorTest
+public class FloodFillImageComparatorTest
 {
 
     private bool[,] Act(byte[,] img1, byte[,] img2)
     {
-        var comparator = new ImageComparator(new PixelComparer(0.00001));
+        var comparator = new FloodFillImageComparator(new PixelComparer(0.00001));
         return comparator.Compare(new MatrixAccessor(img1), new MatrixAccessor(img2));
     }
 

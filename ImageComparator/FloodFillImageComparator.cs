@@ -3,11 +3,11 @@ namespace ImageComparator;
 /// <summary>
 /// Flood Fill algorithm 
 /// </summary>
-public class ImageComparator
+public class FloodFillImageComparator : IImageComparator
 {
     private readonly IEqualityComparer<Pixel> _comparer;
 
-    public ImageComparator(IEqualityComparer<Pixel> comparer)
+    public FloodFillImageComparator(IEqualityComparer<Pixel> comparer)
     {
         _comparer = comparer;
     }
