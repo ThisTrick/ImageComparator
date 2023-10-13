@@ -1,4 +1,7 @@
-namespace ImageComparator;
+using ImageComparator.Assessors;
+using ImageComparator.Models;
+
+namespace ImageComparator.Comparators;
 
 /// <summary>
 /// Flood Fill algorithm 

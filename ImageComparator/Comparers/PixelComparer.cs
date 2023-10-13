@@ -1,4 +1,6 @@
-namespace ImageComparator;
+using ImageComparator.Models;
+
+namespace ImageComparator.Comparers;
 
 public class PixelComparer : IEqualityComparer<Pixel>
 {

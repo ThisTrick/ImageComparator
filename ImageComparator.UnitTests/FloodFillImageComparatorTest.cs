@@ -1,4 +1,8 @@
 
+using ImageComparator.Assessors;
+using ImageComparator.Comparators;
+using ImageComparator.Comparers;
+
 namespace ImageComparator.UnitTests;
 
 public class FloodFillImageComparatorTest

@@ -1,4 +1,4 @@
-namespace ImageComparator;
+namespace ImageComparator.Models;
 
 public record struct Pixel(byte R, byte G, byte B, byte A)
 {

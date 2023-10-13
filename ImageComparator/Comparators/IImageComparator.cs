@@ -1,4 +1,6 @@
-namespace ImageComparator;
+using ImageComparator.Assessors;
+
+namespace ImageComparator.Comparators;
 
 public interface IImageComparator
 {

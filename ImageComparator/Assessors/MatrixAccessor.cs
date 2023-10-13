@@ -1,4 +1,6 @@
-namespace ImageComparator;
+using ImageComparator.Models;
+
+namespace ImageComparator.Assessors;
 
 public class MatrixAccessor : IImageAccessor
 {
